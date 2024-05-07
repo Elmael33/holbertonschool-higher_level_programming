@@ -3,4 +3,4 @@ import sys
 
 number = "3.14159"
 
-print(f"Float: {number[0:4]}")
+print(f"Float: {number:.2f}")
