@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+alphabet = ""
 for ascii in range(97, 123):
-    print('{}'.format(chr(ascii)), end="")
-    
+    alphabet += chr(ascii)
+print(alphabet)
+   
