@@ -6,8 +6,7 @@ This module defines an empty class named Square.
 
 class Square:
     """
-    This is an empty class that represents a
-    square with a private instance attribute size.
+    This is an empty class that represents a square.
     """
 
     def __init__(self, size=0):
