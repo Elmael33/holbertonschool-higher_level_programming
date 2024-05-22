@@ -21,5 +21,5 @@ def text_indentation(text):
                 i += 1
             continue
         i += 1
-    
+
     print(result, end="")
