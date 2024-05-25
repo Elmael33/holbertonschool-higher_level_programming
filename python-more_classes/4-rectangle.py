@@ -64,5 +64,4 @@ class Rectangle:
 
     def __repr__(self):
         """Return the rectangle with module and class name."""
-        return f"<{self.__class__.__module__}.{self.__class__.__name__}\
-            object at {hex(id(self))}>"
+        return ("Rectangle({}, {})".format(self.__width, self.__height))
