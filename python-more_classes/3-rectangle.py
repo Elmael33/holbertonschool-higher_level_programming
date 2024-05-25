@@ -54,7 +54,7 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        """Print the rectangle with the character '#'."""
+        """Return the rectangle using the character #."""
         if self.__width == 0 or self.__height == 0:
             return ""
         rect_str = ""
@@ -63,5 +63,6 @@ class Rectangle:
         return rect_str.rstrip()
 
     def __repr__(self):
-        """Return a string representation of the rectangle."""
-        return f"<{self.__class__.__name__} object at {hex(id(self))}>"
+        """Return the rectangle with module and class name."""
+        return f"<{self.__class__.__module__}.{self.__class__.__name__}\
+            object at {hex(id(self))}>"
