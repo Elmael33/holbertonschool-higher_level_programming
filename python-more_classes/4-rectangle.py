@@ -61,3 +61,8 @@ class Rectangle:
         for _ in range(self.__height):
             rect_str += "#" * self.__width + "\n"
         return rect_str.rstrip()
+
+    def __repr__(self):
+        """Return the rectangle with module and class name."""
+        return f"<{self.__class__.__module__}.{self.__class__.__name__}\
+            object at {hex(id(self))}>"
