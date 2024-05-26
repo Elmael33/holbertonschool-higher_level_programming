@@ -15,12 +15,14 @@ class Animal(ABC):
     def sound(self):
         pass
 
+
 class Dog(Animal):
     """
     A class representing a dog, a type of animal.
     """
     def sound(self):
         return "Bark"
+
 
 class Cat(Animal):
     """
