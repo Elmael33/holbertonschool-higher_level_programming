@@ -9,4 +9,4 @@ def read_file(filename=""):
     Prints UTF-8 encoded text file its contents to stdout
     """
     with open(filename, "r", encoding="utf-8") as file:
-        print(file.read())
+        print(file.read(), end="")
