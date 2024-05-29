@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+This module is a script that compiles all command-line arguments
+into a Python list and saves to a file in JSON format.
+"""
 import sys
 import os
 
