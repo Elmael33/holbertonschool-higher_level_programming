@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module is a function that creates 
+This module is a function that creates
 an Object from a “JSON file”:
 """
 import json
