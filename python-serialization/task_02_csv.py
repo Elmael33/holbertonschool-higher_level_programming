@@ -22,7 +22,7 @@ def convert_csv_to_json(csv_file):
 
         return True
     except (
-            FileNotFoundError, AttributeError,
+            FileNotFoundError, csv.Error, AttributeError,
             EOFError, ImportError, IndexError
             ):
         return False
