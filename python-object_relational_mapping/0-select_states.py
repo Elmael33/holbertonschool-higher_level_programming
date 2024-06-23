@@ -1,4 +1,15 @@
 #!/usr/bin/python3
+"""
+A script that lists all states from the database hbtn_0e_0_usa.
+
+This script connects to a MySQL database using the MySQLdb module,
+retrieves all rows from the 'states' table, orders them by 'id'
+in ascending order.
+
+Arguments: MySQL username, password, and database name.
+
+"""
+
 import MySQLdb
 import sys
 
